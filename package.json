@@ -1,0 +1,24 @@
+{
+  "name": "remote-control-app-be",
+  "version": "1.0",
+  "description": "",
+  "main": "./server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js",
+    "build": "pkg ."
+  },
+  "bin": {
+    "app": "./server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-ssh": "^13.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1",
+    "nodemon": "^2.0.16"
+  }
+}

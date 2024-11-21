@@ -1,2 +1,2 @@
 # remote-control-app-be
-2023.10.03 ~ 2023.10.08에 수행한 remote control app의 백엔드 레포지토리
+ Remote Control App의 제어 처리를 위한 백엔드 애플리케이션
